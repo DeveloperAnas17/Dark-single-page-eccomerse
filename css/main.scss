@@ -9,7 +9,7 @@ $bgColor: #1a1a1a;
 
 body {
   background-color: $bgColor;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -29,8 +29,12 @@ header {
     p {
       margin: 20px;
       font-size: 14px;
-      font-weight: 400;
-      cursor: pointer;
+      font-weight: 300px;
+
+      &:hover {
+        cursor: pointer;
+        font-weight: bold;
+      }
     }
 
     @media (max-width: 768px) {
@@ -45,6 +49,10 @@ header {
       margin: 20px;
       cursor: pointer;
       color: gray;
+
+      &:hover {
+        color: lightgray;
+      }
     }
   }
 }

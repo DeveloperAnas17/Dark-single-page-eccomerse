@@ -7,7 +7,7 @@
 
 body {
   background-color: #1a1a1a;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -37,8 +37,12 @@ header .center {
 header .center p {
   margin: 20px;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300px;
+}
+
+header .center p:hover {
   cursor: pointer;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -57,6 +61,10 @@ header .right .rgt {
   margin: 20px;
   cursor: pointer;
   color: gray;
+}
+
+header .right .rgt:hover {
+  color: lightgray;
 }
 
 nav {
